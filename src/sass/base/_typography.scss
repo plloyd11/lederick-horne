@@ -1,0 +1,21 @@
+// Basic typography style for copy text
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PT Sans', sans-serif;
+  line-height: 1;
+}
+
+a,
+li,
+p,
+small,
+label {
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
