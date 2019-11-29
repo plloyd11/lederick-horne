@@ -1,3 +1,45 @@
 <footer class="global--footer">
-
+    <div class="container">
+        <div class="global--footer_top pt-12 flex flex-col sm:flex-row justify-between items-center">
+            <h2 class="text-lg sm:text-2xl sm:max-w-xs">Your students and staff deserve excellence</h2>
+            <div class="flex flex-col">
+                <p>Subscribe to LeDerick’s Newsletter</p>
+                <form name="newsletter-subscribe" netlify netlify-honeypot="bot-field">
+                    <div class="field has-addons">
+                        <p class="hidden">
+                            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                        </p>
+                        <div class="control">
+                            <input class="input" type="email" name="email" placeholder="Enter your email" required />
+                        </div>
+                        <div class="control">
+                            <button class="button newsletter-submit" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr class="mt-8 mb-12">
+        <div class="global--footer_bottom flex flex-col sm:flex-row items-center justify-between">
+            <div>
+                <div class="mb-12">
+                    <a href="/about" class="mr-24">About</a>
+                    <a href="/consulting" class="mr-24">Consulting</a>
+                    <a href="/media" class="mr-24">Media</a>
+                    <a href="/contact">Contact</a>
+                </div>
+                <img src="/img/logos/logo-white.svg" alt="LeDerick Horne Logo" width="200">
+            </div>
+            <div class="flex flex-col">
+                <p>Get in touch with LeDerick via email</p>
+                <a href="mailto:lederick@website.com">lederick@website.com</a>
+                <div class="flex">
+                    <img src="/img/logos/youtube.svg" alt="Youtube" class="mr-6">
+                    <img src="/img/logos/facebook.svg" alt="Facebook" class="mr-6">
+                    <img src="/img/logos/instagram.svg" alt="Instagram">
+                </div>
+            </div>
+        </div>
+    </div>
+    <small class="block mt-12 pb-4 opacity-50 text-center text-sm">Copyright © 2019 LeDerick Horne. All Rights Reserved.</small>
 </footer>
