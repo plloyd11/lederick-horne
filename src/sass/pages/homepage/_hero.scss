@@ -4,4 +4,49 @@
         background: url('/img/homepage/hero.jpg') no-repeat right;
         background-size: contain;
     }
+    &--quote {
+        width: 100%;
+        margin-left: 36px;
+        background-image: linear-gradient(89deg, rgba(209,209,209,0.00) 0%, rgba(110,17,65,0.40) 100%);
+        clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+        p {
+            padding-top: 36px;
+            padding-bottom: 36px;
+            max-width: 730px;
+            font-size: 18px;
+            line-height: 1.65;
+        }
+        &_info {
+            max-width: 572px;
+            padding: 36px 18px;
+            position: relative;
+            bottom: calc(1px + 1.5em);
+            left: calc(50% - 270px);
+            display: flex;
+            justify-content: space-around;
+            background: #FFFFFF;
+            box-shadow: 0 3px 12px -1px rgba(0,0,0,0.09);
+            border-radius: 4px;
+            div {
+                &:first-of-type {
+                    padding-right: 3em;
+                    border-right: 1px solid #979797;
+                }
+            }
+        }
+    }
+    &--callout {
+        display: flex;
+        align-items: center;
+        height: 500px;
+        background: url('/img/homepage/callout.jpg') no-repeat center center;
+        background-size: cover;
+        h2 {
+            font-size: 48px;
+            margin-bottom: 48px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            line-height: 32px;
+        }
+    }
 }

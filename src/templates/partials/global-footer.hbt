@@ -1,19 +1,19 @@
 <footer class="global--footer">
     <div class="container">
         <div class="global--footer_top pt-12 flex flex-col sm:flex-row justify-between items-center">
-            <h2 class="text-lg sm:text-2xl sm:max-w-xs">Your students and staff deserve excellence</h2>
-            <div class="flex flex-col">
-                <p>Subscribe to LeDerick’s Newsletter</p>
+            <h2 class="text-2xl sm:text-4xl sm:max-w-sm leading-tight mb-2 sm:mb-0">Your students and staff deserve excellence</h2>
+            <div class="flex flex-col w-4/5 sm:w-2/5 md:w-1/5">
+                <p class="mb-3 sm:mb-0 text-center sm:text-left">Subscribe to LeDerick’s Newsletter</p>
                 <form name="newsletter-subscribe" netlify netlify-honeypot="bot-field">
                     <div class="field has-addons">
                         <p class="hidden">
                             <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                         </p>
                         <div class="control">
-                            <input class="input" type="email" name="email" placeholder="Enter your email" required />
+                            <input class="input-right-angle mb-3 py-2" type="email" name="email" placeholder="Enter your email" required />
                         </div>
                         <div class="control">
-                            <button class="button newsletter-submit" type="submit">Submit</button>
+                            <button class="btn-submit py-2" type="submit">Submit</button>
                         </div>
                     </div>
                 </form>
@@ -23,17 +23,17 @@
         <div class="global--footer_bottom flex flex-col sm:flex-row items-center justify-between">
             <div>
                 <div class="mb-12">
-                    <a href="/about" class="mr-24">About</a>
-                    <a href="/consulting" class="mr-24">Consulting</a>
-                    <a href="/media" class="mr-24">Media</a>
-                    <a href="/contact">Contact</a>
+                    <a href="/about" class="text-lg mr-3 sm:mr-24">About</a>
+                    <a href="/consulting" class="text-lg mr-3 sm:mr-24">Consulting</a>
+                    <a href="/media" class="text-lg mr-3 sm:mr-24">Media</a>
+                    <a href="/contact" class="text-lg mr-3 sm:mr-0">Contact</a>
                 </div>
-                <img src="/img/logos/logo-white.svg" alt="LeDerick Horne Logo" width="200">
+                <img src="/img/logos/logo-white.svg" class="m-auto mb-8 sm:mx-0 sm:mb-0" alt="LeDerick Horne Logo" width="200">
             </div>
             <div class="flex flex-col">
-                <p>Get in touch with LeDerick via email</p>
-                <a href="mailto:lederick@website.com">lederick@website.com</a>
-                <div class="flex">
+                <p class="text-lg mb-2 text-center text-center sm:text-left">Get in touch with LeDerick via email</p>
+                <a href="mailto:lederick@website.com" class="text-2xl text-center sm:text-left">lederick@website.com</a>
+                <div class="flex justify-center sm:justify-start mt-6">
                     <img src="/img/logos/youtube.svg" alt="Youtube" class="mr-6">
                     <img src="/img/logos/facebook.svg" alt="Facebook" class="mr-6">
                     <img src="/img/logos/instagram.svg" alt="Instagram">

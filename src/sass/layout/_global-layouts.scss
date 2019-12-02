@@ -1,19 +1,25 @@
 .article--hero {
     background: #F3EBE2;
     &_content {
-        max-width: 590px;
+        max-width: 480px;
         padding-left: calc(50% - 640px);
         display: flex;
         flex-direction: column;
+        @include mq(large) {
+            max-width: 710px;
+        }
         h1 {
             margin-bottom: 24px;
             font-size: 48px;
             color: #3E4348;
         }
         p {
-            margin-bottom: 76px;
+            margin-bottom: 48px;
             font-size: 20px;
             color: #3E4348;
         }
+    }
+    &_img {
+        max-width: 812px;
     }
 }

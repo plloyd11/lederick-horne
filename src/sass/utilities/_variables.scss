@@ -3,7 +3,12 @@
 // Colors
 $primary-color: #F9A441;
 $secondary-color: #2E2427;
+$tertiary-color: #6E1141;
 $bg-dark-gray: #42474C;
+
+.color-tertiary {
+    color: $tertiary-color !important;
+}
 
 // Layout
 $section-spacing: 0 0.66667em;
