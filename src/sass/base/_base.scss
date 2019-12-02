@@ -21,7 +21,10 @@ main {
 }
 
 .section {
-    padding: 6rem 1.5rem;
+    padding: 3rem 1.5rem;
+    @include mq(large) {
+        padding: 6rem 1.5rem;
+    }
 }
 
 *,

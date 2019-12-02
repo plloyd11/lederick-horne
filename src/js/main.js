@@ -1,10 +1,3 @@
-var app = new Vue({
-    el: '#test',
-    data: {
-        baller: 'BALLER'
-    }
-})
-
 new Vue({
     el: '#nav',
     data: function() {

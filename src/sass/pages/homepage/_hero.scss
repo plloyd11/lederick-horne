@@ -1,8 +1,10 @@
 .homepage {
     &--hero {
-        height: 800px;
-        background: url('/img/homepage/hero.jpg') no-repeat right;
-        background-size: contain;
+        @include mq(large) {
+            height: 800px;
+            background: url('/img/homepage/hero.jpg') no-repeat right;
+            background-size: contain;
+        }
     }
     &--quote {
         width: 100%;
