@@ -1,9 +1,7 @@
 <header class="bg-white w-full shadow-md relative">
     <div class="container m-auto">
         <div id="nav" class="">
-            <div>
-            <nav
-                class="relative flex flex-wrap items-center justify-between md:py-4">
+            <nav class="relative flex flex-wrap items-center justify-between md:py-4">
                 <div class="relative z-10 flex-shrink-0 pl-4 py-4 md:p-0">
                     <a href="/">
                         <img src="/img/logos/logo-primary.svg" alt="LeDerick Horne" width="200px"/>
@@ -33,7 +31,6 @@
                 </div>
                 </div>
             </nav>
-            </div>
             <div class="md:hidden">
             <!-- Off-canvas menu background overlay -->
             <transition
@@ -71,7 +68,7 @@
                 <div class="relative z-10 bg-white">
                     <div
                     :class="isOpen ? 'block' : 'hidden'"
-                    class="absolute top-0 right-0 p-4"
+                    class="absolute mobile-close p-4"
                     >
                     <button
                         ref="closeButton"
@@ -88,66 +85,16 @@
                     </button>
                     </div>
                     <div class="px-4 pt-4 pb-6">
-                    <img class="h-8 w-8" src="/img/example-logo.svg" alt="" />
-                    <a
-                        href="#"
-                        class="mt-8 block text-xs font-semibold text-gray-600 uppercase tracking-wider"
-                        >Products</a
-                    >
-                    <a
-                        href="#"
-                        class="mt-4 block font-medium text-gray-900 hover:text-gray-700"
-                        >Checkout</a
-                    >
-                    <a
-                        href="#"
-                        class="mt-4 block font-medium text-gray-900 hover:text-gray-700"
-                        >Payments</a
-                    >
-                    <a
-                        href="#"
-                        class="mt-4 block font-medium text-gray-900 hover:text-gray-700"
-                        >Billing</a
-                    >
-                    <a
-                        href="#"
-                        class="mt-4 block font-medium text-gray-900 hover:text-gray-700"
-                        >Insights</a
-                    >
-                    </div>
-                    <div class="border-t-2 border-gray-200 px-4 pt-6">
-                    <a
-                        href="#"
-                        class="block font-medium text-gray-900 hover:text-gray-700"
-                        >Marketplace</a
-                    >
-                    <a
-                        href="#"
-                        class="mt-4 block font-medium text-gray-900 hover:text-gray-700"
-                        >Partners</a
-                    >
-                    <a
-                        href="#"
-                        class="mt-4 block font-medium text-gray-900 hover:text-gray-700"
-                        >About</a
-                    >
+                        <a href="/">
+                            <img src="/img/logos/logo-primary.svg" alt="LeDerick Horne" width="200px"/>
+                        </a>
+                        <p class="mt-8 block text-xs font-semibold text-gray-600 uppercase tracking-wider">Menu Items</p>
+                        <a href="#" class="mt-4 block font-medium text-gray-900 hover:text-gray-700">About</a>
+                        <a href="#" class="mt-4 block font-medium text-gray-900 hover:text-gray-700">Consulting</a>
+                        <a href="#" class="mt-4 block font-medium text-gray-900 hover:text-gray-700">Media</a>
+                        <a href="/contact" class="mt-4 block px-3 py-3 font-medium text-center bg-gray-300 rounded-lg text-gray-900 hover:bg-gray-400 focus:outline-none focus:bg-gray-400">Contact</a>
                     </div>
                 </div>
-                <div class="relative bg-white">
-                    <div class="px-4 pt-4 pb-6">
-                    <a
-                        href="#"
-                        class="block font-medium text-gray-900 hover:text-gray-700"
-                        >Log in</a
-                    >
-                    </div>
-                    <div class="p-4">
-                    <a
-                        href="#"
-                        class="block px-3 py-3 font-medium text-center bg-gray-300 rounded-lg text-gray-900 hover:bg-gray-400 focus:outline-none focus:bg-gray-400"
-                        >Create Account</a
-                    >
-                    </div>
                 </div>
                 </div>
             </transition>

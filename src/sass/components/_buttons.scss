@@ -2,8 +2,7 @@
     padding: 8px 48px;
     font-size: 18px;
     border-radius: 4px;
-    font-weight: 700;
-    line-height: 1.133;
+    font-weight: 400;
     -webkit-transition: 150ms ease;
     transition: 150ms ease;
     -webkit-transition-property: background-color border-color color;
@@ -31,14 +30,17 @@
     border-width: 0.125em;
     border-radius: 4px;
     border-style: solid;
+    font-weight: 400;
     font-size: 18px;
     border-color: $primary-color;
     color: $primary-color;
     text-transform: capitalize;
-    padding: 0.6875em 2.55em;
+    padding: 8px 48px;
     box-shadow: 0 3px 10px 0 rgba(0,0,0,0.10);
+    transition: .25s ease-in-out;
     &:hover {
-        border-color: darken($primary-color, 15%);
+        background: darken($primary-color, 15%);
+        text-decoration: none;
     }
 }
 
@@ -51,6 +53,7 @@
     box-shadow: 1px 2px 7px 0 rgba(0,0,0,0.22);
     border-radius: 0 0 0 100px;
     cursor: pointer;
+    transition: .25s ease-in-out;
 }
 
 .btn-hero {
@@ -59,9 +62,16 @@
     color: #fff;
     display: inline-block;
     font-size: 18px;
+    font-weight: 400;
     text-align: center;
     background: #F9A441;
     box-shadow: 1px 2px 7px 0 rgba(0,0,0,0.22);
     border-radius: 4px;
     cursor: pointer;
+    transition: .25s ease-in-out;
+    &:hover {
+        color: #fff;
+        background: darken($primary-color, 15%);
+        text-decoration: none;
+    }
 }
