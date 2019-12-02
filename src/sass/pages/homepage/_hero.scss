@@ -56,7 +56,10 @@
 .about {
     .article--hero {
         h1 {
-            font-size: 35px;
+            font-size: 28px;
+            @include mq (small) {
+                font-size: 35px;
+            }
         }
     }
 }

@@ -1,5 +1,10 @@
 .article--hero {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     background: #F3EBE2;
+    @include mq (large) {
+        padding-right: 0;
+    }
     &_content {
         max-width: 480px;
         padding-left: calc(50% - 640px);
@@ -7,13 +12,15 @@
         flex-direction: column;
         @include mq(large) {
             max-width: 640px;
+            padding-left: calc(50% - 615px);
         }
         @include mq(xl) {
             max-width: 770px;
+            padding-left: calc(50% - 640px);
         }
         h1 {
             margin-bottom: 24px;
-            font-size: 32px;
+            font-size: 28px;
             color: #3E4348;
             line-height: 1.25;
             @include mq(large) {
@@ -21,9 +28,12 @@
             }
         }
         p {
-            margin-bottom: 48px;
+            margin-bottom: 24px;
             font-size: 20px;
             color: #3E4348;
+            @include mq(large) {
+                margin-bottom: 48px;
+            }
         }
     }
     &_img {
