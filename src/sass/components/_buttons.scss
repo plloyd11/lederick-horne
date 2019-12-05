@@ -47,6 +47,7 @@
         padding: 7px 48px;
     }
     &:hover {
+        color: #fff;
         background: darken($primary-color, 15%);
         text-decoration: none;
     }
