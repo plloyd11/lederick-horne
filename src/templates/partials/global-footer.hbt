@@ -3,17 +3,17 @@
         <div class="global--footer_top pt-12 flex flex-col sm:flex-row justify-between items-center">
             <h2 class="text-lg sm:text-4xl sm:max-w-sm leading-tight mb-4 sm:mb-0">Your students and staff deserve excellence</h2>
             <div class="flex flex-col w-4/5 sm:w-2/5 md:w-1/5">
-                <p class="mb-3 sm:mb-0 text-center sm:text-left">Subscribe to LeDerick’s Newsletter</p>
-                <form name="newsletter-subscribe" netlify netlify-honeypot="bot-field">
+                <form name="newsletter-subscribe" action="/thank-you" netlify netlify-honeypot="bot-field">
                     <div class="field has-addons">
                         <p class="hidden">
                             <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                         </p>
                         <div class="control">
-                            <input class="input-right-angle mb-3 py-2" type="email" name="email" placeholder="Enter your email" required />
+                            <label class="block text-white text-md font-normal mb-2 text-center lg:text-left" for="first-name">Subscribe to LeDerick’s Newsletter</label>
+                            <input class="appearance-none input-right-angle block w-full bg-gray-100 text-gray-700 border rounded border-gray-300 py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white form-input-contact" name="first-name" type="text" placeholder="Enter your email" required>
                         </div>
                         <div class="control">
-                            <button class="btn-submit py-2" type="submit">Submit</button>
+                            <button class="btn-submit py-2" type="submit" value="Submit" name="Submit">Submit</button>
                         </div>
                     </div>
                 </form>
