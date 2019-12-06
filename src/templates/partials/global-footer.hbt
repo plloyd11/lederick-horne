@@ -34,9 +34,10 @@
                 <p class="text-lg mb-2 text-center text-center sm:text-left">Get in touch with LeDerick via email</p>
                 <a href="mailto:lederick@website.com" class="text-2xl text-center sm:text-left">lederick@website.com</a>
                 <div class="flex justify-center sm:justify-start mt-6">
-                    <img src="/img/logos/youtube.svg" alt="Youtube" class="mr-6">
-                    <img src="/img/logos/facebook.svg" alt="Facebook" class="mr-6">
-                    <img src="/img/logos/instagram.svg" alt="Instagram">
+                    <a href="https://www.youtube.com/user/lapoet77" target="_blank"><img src="/img/logos/youtube.svg" alt="Youtube logo" class="mr-6"></a>
+                    <a href="https://www.instagram.com/lederickhorne/" target="_blank"><img src="/img/logos/instagram.svg" alt="Instagram logo" class="mr-6"></a>
+                    <a href="https://twitter.com/LEDERICK" target="_blank"><img src="/img/logos/twitter.svg" alt="Twitter logo" class="mr-6"></a>
+                    <a href="https://www.facebook.com/lederick.horne" target="_blank"><img src="/img/logos/facebook.svg" alt="Facebook logo" class="mr-6"></a>
                 </div>
             </div>
         </div>
