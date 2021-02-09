@@ -3,6 +3,7 @@
 
 html {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body {
@@ -101,9 +102,4 @@ li {
         color: #3E4348;
         opacity: .4;
       }
-}
-
-.form-input-contact {
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0.05);
-    border-radius: 0 100px 0 0;
 }

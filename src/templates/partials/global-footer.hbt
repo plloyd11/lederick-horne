@@ -10,7 +10,7 @@
                         </p>
                         <div class="control">
                             <label class="block text-white text-md font-normal mb-2 text-center lg:text-left" for="first-name">Subscribe to LeDerick’s Newsletter</label>
-                            <input class="appearance-none input-right-angle block w-full bg-gray-100 text-gray-700 border rounded border-gray-300 py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white form-input-contact" name="first-name" type="text" placeholder="Enter your email" required>
+                            <input class="bg-gray-100 pl-2 w-full text-gray-700 text-lg border rounded border-gray-300 py-3 mb-3 leading-tight focus:outline-none focus:bg-white" name="first-name" type="text" placeholder="Enter your email" required>
                         </div>
                         <div class="control">
                             <button class="btn-submit py-2" type="submit" value="Submit" name="Submit">Submit</button>
@@ -42,5 +42,5 @@
             </div>
         </div>
     </div>
-    <small class="block mt-12 pb-4 opacity-50 text-center text-sm">Copyright © 2019 LeDerick Horne. All Rights Reserved.</small>
+    <small class="block mt-12 pb-4 opacity-50 text-center text-sm">Copyright © 2021 LeDerick Horne. All Rights Reserved.</small>
 </footer>
